@@ -6,9 +6,9 @@
 
 
 # ~~~~~~~~~~~ 1) S3 ~~~~~~~~~~~
-aws s3 rm s3://aws-dtq-cloudtrail-logs-462123133781-e5c21b44/ --recursive
-aws s3api delete-bucket-policy --bucket aws-dtq-cloudtrail-logs-462123133781-e5c21b44
-aws s3api delete-bucket --bucket aws-dtq-cloudtrail-logs-462123133781-e5c21b44
+aws s3 rm s3://aws-dtq-cloudtrail-logs-<AWS_ACCID!!!>-e5c21b44/ --recursive
+aws s3api delete-bucket-policy --bucket aws-dtq-cloudtrail-logs-<AWS_ACCID!!!>-e5c21b44
+aws s3api delete-bucket --bucket aws-dtq-cloudtrail-logs-<AWS_ACCID!!!>-e5c21b44
 
 
 # ~~~~~~~~~~~ 2) Lambda ~~~~~~~~~~~
